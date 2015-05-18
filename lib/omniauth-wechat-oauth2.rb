@@ -1,2 +1,2 @@
-require "omniauth/strategies/wechat"
+require "omniauth/strategies/mpwechat"
 require "omniauth/strategies/wechat_qiye"

@@ -1,4 +1,4 @@
-Omniauth-wechat-oauth2
+Omniauth-mp-wechat-oauth2
 ======================
 
 [![Build Status](https://travis-ci.org/skinnyworm/omniauth-wechat-oauth2.svg)](https://travis-ci.org/skinnyworm/omniauth-wechat-oauth2) [![Gem Version](https://badge.fury.io/rb/omniauth-wechat-oauth2.png)](http://badge.fury.io/rb/omniauth-wechat-oauth2)
@@ -14,7 +14,7 @@ Wechat oauth2 specification can be found at: http://mp.weixin.qq.com/wiki/index.
 Add to your `Gemfile`:
 
 ```ruby
-gem "omniauth-wechat-oauth2"
+gem "omniauth-mp-wechat-oauth2"
 ```
 
 Then `bundle install`.
@@ -30,7 +30,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
 end
 ```
 
-You can now access the OmniAuth Wechat OAuth2 URL: `/auth/wechat`
+You can now access the OmniAuth Wechat OAuth2 URL: `/auth/mpwechat`
 
 ## Configuration
 
