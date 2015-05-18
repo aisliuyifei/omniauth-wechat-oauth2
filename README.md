@@ -14,7 +14,7 @@ Wechat oauth2 specification can be found at: http://mp.weixin.qq.com/wiki/index.
 Add to your `Gemfile`:
 
 ```ruby
-gem "omniauth-mp-wechat-oauth2"
+gem "omniauth-mpwechat-oauth2"
 ```
 
 Then `bundle install`.

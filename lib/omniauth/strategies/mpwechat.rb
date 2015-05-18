@@ -2,7 +2,7 @@ require "omniauth-oauth2"
 
 module OmniAuth
   module Strategies
-    class Wechat < OmniAuth::Strategies::OAuth2
+    class MpWechat < OmniAuth::Strategies::OAuth2
       option :name, "mpwechat"
 
       option :client_options, {
